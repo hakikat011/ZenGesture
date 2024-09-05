@@ -1,0 +1,26 @@
+{
+  "name": "threejs-handpose-recognition",
+  "version": "1.0.0",
+  "description": "A Three.js project integrating hand pose recognition using TensorFlow.js",
+  "main": "src/js/app.js",
+  "scripts": {
+    "start": "parcel public/index.html --open",
+    "build": "parcel build public/index.html --public-url ./"
+  },
+  "keywords": [
+    "three.js",
+    "handpose",
+    "tensorflow.js",
+    "interactive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow-models/handpose": "^0.0.7",
+    "@tensorflow/tfjs": "^4.0.0",
+    "three": "^0.152.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
